@@ -1,0 +1,199 @@
+body{
+    margin: auto;
+    font-family: "Roboto";
+    background-color: #202124;
+}
+
+
+.nav-container{
+    display: inline-block;
+    padding: 20px 10px;
+    position: absolute;
+    right: 0;
+}
+
+
+.nav-bar{
+    padding: 5px 10px;
+    position: relative;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    margin: 5px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.grid-container{
+    display: inline;
+    position: relative;
+    bottom: 2px;
+}
+
+.grid{
+    width: 15px;
+    padding: 5px;
+    filter: brightness(1000);
+    border-radius: 10%;
+    cursor: pointer;
+    margin: 0px 15px; 
+}
+
+.grid:hover{
+    background-color: rgba(214, 214, 214, 0.144);
+}
+
+.logo-icon{
+    width: 30px;
+    border-radius: 30px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.main-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 10%;
+}
+
+.google{
+    position: absolute;
+    bottom: 0;
+}
+
+
+.search-bar{
+    position: relative;
+    top: 220px;
+    height: 500px;
+
+}
+
+
+
+.search{
+    position: relative;
+    left: 4%;
+    width: 600px;
+    height: 50px;
+    padding: 5px 50px;
+    border-radius: 30px;
+    border: none;
+    border: 1px solid rgb(138, 136, 136);
+    background-color: transparent;
+    color: white;
+    outline: none;
+    font-size: 16px;
+}
+
+.search:hover{
+    background-color: rgba(214, 214, 214, 0.144);
+    border: none ;
+    box-shadow: 5px 5px 5px 1px #0000002a;
+}
+
+.search:focus{
+    background-color: rgba(214, 214, 214, 0.144);
+    border: none ;
+    box-shadow: 5px 5px 5px 1px #0000002a;
+}
+
+.search-buttons{
+
+    display: flex;
+    position: relative;
+    margin-top: 15px;
+    padding: 0px 150px;
+
+}
+
+.button{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    background-color: #303134;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.button:hover{
+    border: 1px solid rgba(165, 165, 165, 0.548);
+}
+
+
+
+p{
+    color: white;
+    font-size: 12px;
+    margin: 0;
+}
+
+.idioma{
+    color: rgb(107, 158, 235);
+}
+
+.bar-idioma{
+    position: absolute;
+    bottom: -40px;
+    left: 33%;
+}
+
+
+
+
+.footer{
+    position: fixed;
+    bottom: 40px;
+    width: 100%;
+    height: 40px;
+    background-color: #181818;
+    color: white;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+
+.arg{
+    margin-top: 8px;
+}
+
+.footer-info{
+    position: fixed;
+    text-decoration: none;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #181818;
+    border-top: 1px solid rgb(88, 88, 88);
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5%;
+    font-size: 13px;
+    padding: 5px 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    
+    text-decoration: underline;
+    color: white;
+}
+
