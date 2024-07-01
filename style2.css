@@ -1,21 +1,10 @@
 body{
     margin: auto;
     font-family: "Roboto";
-    background-color: #202124;
+    background-color: #ffffff;
 }
 
 
-.nav-container{
-    display: inline-block;
-    padding: 20px 10px;
-    position: absolute;
-    right: 0;
-}
-
-.nav-bar{
-    padding: 5px 10px;
-    position: relative;
-}
 
 .mode{
     position: absolute;
@@ -24,19 +13,30 @@ body{
 }
 
 .mode-img{
-    filter: brightness(10);
     width: 30px;
 }
 
 .mode-img:hover{
-    background-color: #0a0a0a;
+    background-color: #e6e6e6;
     border-radius: 40px;
 }
 
+.nav-container{
+    display: inline-block;
+    padding: 20px 10px;
+    position: absolute;
+    right: 0;
+}
+
+
+.nav-bar{
+    padding: 5px 10px;
+    position: relative;
+}
 
 .link{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 13px;
     margin: 5px;
     position: relative;
@@ -53,14 +53,13 @@ body{
 .grid{
     width: 15px;
     padding: 5px;
-    filter: brightness(1000);
     border-radius: 10%;
     cursor: pointer;
     margin: 0px 15px; 
 }
 
 .grid:hover{
-    background-color: rgba(214, 214, 214, 0.144);
+    background-color: rgba(65, 65, 65, 0.144);
 }
 
 .logo-icon{
@@ -104,9 +103,9 @@ body{
     padding: 5px 50px;
     border-radius: 30px;
     border: none;
-    border: 1px solid rgb(138, 136, 136);
+    border: 1px solid rgb(218, 217, 217);
     background-color: transparent;
-    color: white;
+    color: rgb(36, 36, 36);
     outline: none;
     font-size: 16px;
 }
@@ -114,13 +113,13 @@ body{
 .search:hover{
     background-color: rgba(214, 214, 214, 0.144);
     border: none ;
-    box-shadow: 5px 5px 5px 1px #0000002a;
+    box-shadow: 0px 0px 5px 1px #0000002a;
 }
 
 .search:focus{
     background-color: rgba(214, 214, 214, 0.144);
     border: none ;
-    box-shadow: 5px 5px 5px 1px #0000002a;
+    box-shadow: 0px 0px 5px 1px #0000002a;
 }
 
 .search-buttons{
@@ -137,10 +136,10 @@ body{
     width: 150px;
     height: 40px;
     margin: 10px;
-    background-color: #303134;
+    background-color: #ffffff;
     border: none;
     border-radius: 5px;
-    color: white;
+    color: rgb(37, 37, 37);
     font-size: 14px;
     cursor: pointer;
 }
@@ -152,19 +151,23 @@ body{
 
 
 p{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 12px;
     margin: 0;
 }
 
 .idioma{
-    color: rgb(107, 158, 235);
+    color: rgb(32, 82, 156);
 }
 
 .bar-idioma{
     position: absolute;
     bottom: -40px;
     left: 33%;
+}
+
+.idioma:hover{
+    color: rgb(32, 82, 156);
 }
 
 
@@ -175,8 +178,8 @@ p{
     bottom: 40px;
     width: 100%;
     height: 40px;
-    background-color: #181818;
-    color: white;
+    background-color: #f7f7f7;
+    color: rgb(0, 0, 0);
     font-size: 13px;
     padding: 10px 20px;
 }
@@ -191,8 +194,8 @@ p{
     bottom: 0;
     width: 100%;
     height: 40px;
-    background-color: #181818;
-    border-top: 1px solid rgb(88, 88, 88);
+    background-color: #f7f7f7;
+    border-top: 1px solid rgb(209, 209, 209);
     padding: 0px 50px;
     display: flex;
     align-items: center;
@@ -204,12 +207,12 @@ p{
 
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 a:hover{
     
     text-decoration: underline;
-    color: white;
+    color: rgb(116, 116, 116);
 }
 
